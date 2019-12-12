@@ -74,9 +74,10 @@ body .nav-bar button.btn-blue {
 }
 
 #header .jumbotron h1 {
-  margin: 1.5rem;
+  margin: 1.7rem;
   margin-top: 0;
   width: auto;
+  font-size: 2.2rem;
 }
 
 #header .jumbotron p {

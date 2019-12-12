@@ -1,0 +1,251 @@
+@media(min-width: 576px) {
+    #header {
+        height: 480px;
+    }    
+
+    .mail{
+        display: flex;
+
+    }
+
+    .Ben-item p{
+        padding:1rem 5rem;
+    }
+
+
+    #Features .laptop{
+        max-width: 50rem;
+    }
+
+    #Testimonials .test-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:2rem;
+        max-width: 60rem;
+    
+    
+    }
+    
+#Map aside{
+    margin: 8rem;
+}
+
+
+footer .enter-email{
+    padding: 0.65rem;
+    width:20rem
+}
+
+footer input.btn{
+ 
+  width: 8rem;
+}
+    
+}
+
+
+@media(min-width: 768px) {
+  
+    .nav-bar-right{
+        flex-direction: row;
+        margin-right: 3rem;
+ 
+    }
+ 
+ .mail{
+     
+     margin-top: 0.5rem;}
+  
+  
+    #header .jumbotron img {
+        margin-top: 3rem;
+    }   
+
+    #header {
+        height: 600px;
+    }
+
+    .steps{
+        flex-direction: row;
+    }
+
+
+
+  #how-it-works .steps .fas{
+    transform: none;
+     }
+       
+    
+
+  .Ben-item{
+    display: grid;
+    grid-template-columns:2fr 0fr 2fr;
+    gap: 3rem;
+}
+
+.Ben-item h5{
+    margin: auto;
+}
+
+
+.Ben-item p{
+    margin:auto;
+    padding:0;
+    text-align: left;
+
+}
+
+
+#Features .feature-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+#Features img{
+    overflow: hidden;
+    
+}
+
+
+
+#Features aside{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#Features aside img{
+position: relative;
+left:0;
+bottom: 0;
+
+}
+
+#Plan div{
+flex-direction: row;
+}
+
+#Map{
+    grid-template-columns: 50% 50%;
+    
+}
+
+#Map aside{
+    width: 25rem;
+    height: 25rem;
+    padding: 4rem 4rem 5rem 4rem ;
+    margin: 0;
+
+}
+
+}
+
+@media(min-width: 992px) {
+    
+    body h1 {
+        font-size: 2.5em;
+    }
+
+    .nav-bar{
+        justify-content: space-between;
+
+    }
+
+    
+    #header .jumbotron p {
+        font-size: 1.3em;
+    }
+
+    #header {
+        height: 750px;
+    }
+
+    #announcement{
+        display: flex;
+        flex-direction: row;
+
+        
+    } 
+
+    #announcement  i {
+        display: none;  
+    }
+
+    #announcement  h1 {
+        flex: 3;
+        text-align: right;
+     
+    }
+
+    #announcement p {
+        flex: 5;
+        margin-top: 1.1rem;
+        margin-left: 2rem;
+
+
+    }
+
+
+    
+        
+    #Features aside{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:1rem
+    }
+
+    #Features aside .feature-item{
+        display: flex;
+        margin-left: -3rem;
+
+    }
+
+     
+  
+
+    #Features aside h6
+{
+
+   margin-left: 1.5rem; 
+}
+
+    #Features aside span{
+        margin-right: 2rem;
+    }
+    
+    #News div{
+    flex-direction: row;
+    max-width: none;
+
+    }
+
+}
+
+@media(min-width: 1200px) {
+    #header {
+        height: 850px;
+    }  
+    }
+
+
+@media(min-width:1600px){
+    *{
+      font-size: 1.05em;  
+    }
+
+    #Features aside span p{
+        font-size:0.9em
+
+        
+    }
+
+    #Features .feature-item h6{
+        font-size: 1.60em;  
+
+    }
+
+   
+}

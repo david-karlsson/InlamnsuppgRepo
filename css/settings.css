@@ -1,0 +1,71 @@
+:root{
+
+    --BgBlue: rgb(238, 241, 252);
+    --AccentBlue:rgb(118, 107, 219);
+    --mygray: rgb(232, 239, 247);
+}
+
+
+p{
+
+    margin: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+ *{
+     padding: 0;
+     margin:0;
+     color: var(--AccentBlue);
+
+ }
+
+
+ html, body {
+    height: 100%;
+}
+
+
+
+h1{
+    font-size: 2rem;
+    margin: 3rem auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+h5, h6{
+
+    margin: 1rem auto;
+    font-weight: 600;
+
+}
+
+img{
+    width: auto;
+    
+    
+}
+
+.container{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.center-content{
+    display: flex;
+    margin:auto;
+    text-align: center;
+    border-bottom: 2px solid var(--mygray);
+
+}
+
+
+.center-content h1{
+    width: 100%;
+}

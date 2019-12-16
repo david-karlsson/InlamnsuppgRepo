@@ -1,5 +1,6 @@
  @import "./colors";
  @import "./variables";
+ @import "./breakpoints";
 
 
 .nav-bar{
@@ -314,12 +315,12 @@
     
     #Plan ul{
     
-        margin-top: $plan-padding;
+        margin-top: $plan-padding-wide
     }
     
       #Plan li{
           border-bottom: 1px solid ghostwhite;
-          padding: 1rem $plan-padding;
+          padding: 1rem $plan-padding-wide;
           display: flex;
           align-items: center;
     
@@ -336,7 +337,7 @@
     
       #Plan .advanced{
         background: var(--AccentBlue);
-        padding: $plan-padding;
+        padding: $plan-padding-wide;
         min-width: 15rem;
       }
 
@@ -369,7 +370,7 @@
     
       #Plan .free{
           border: 2px solid var(--AccentBlue);
-          padding: $plan-padding;
+          padding: $plan-padding-wide
     
     
     

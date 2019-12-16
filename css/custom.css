@@ -1,3 +1,9 @@
+:root {
+  --BgBlue: rgb(238, 241, 252);
+  --AccentBlue:rgb(118, 107, 219);
+  --mygray: rgb(232, 239, 247);
+}
+
 .nav-bar {
   background: transparent;
   height: 100px;
@@ -345,12 +351,12 @@ body .nav-bar button.btn-blue {
 }
 
 #Plan ul {
-  margin-top: 2rem;
+  margin-top: 3.5rem;
 }
 
 #Plan li {
   border-bottom: 1px solid ghostwhite;
-  padding: 1rem 2rem;
+  padding: 1rem 3.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -366,7 +372,7 @@ body .nav-bar button.btn-blue {
 
 #Plan .advanced {
   background: var(--AccentBlue);
-  padding: 2rem;
+  padding: 3.5rem;
   min-width: 15rem;
 }
 
@@ -392,7 +398,7 @@ body .nav-bar button.btn-blue {
 
 #Plan .free {
   border: 2px solid var(--AccentBlue);
-  padding: 2rem;
+  padding: 3.5rem;
 }
 
 #Plan .free .btn {
@@ -506,5 +512,18 @@ footer span {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (min-width: 768px) {
+  #Plan li {
+    border-bottom: 1px solid ghostwhite;
+    padding: 1rem 2rem;
+  }
+  #Plan .advanced {
+    padding: 2rem;
+  }
+  #Plan .free {
+    padding: 2rem;
+  }
 }
 /*# sourceMappingURL=custom.css.map */

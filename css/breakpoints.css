@@ -127,6 +127,26 @@ bottom: 0;
 flex-direction: row;
 }
 
+
+
+#Plan ul{
+    
+    margin-top: var(--plan-padding);
+}
+
+
+#Plan li{
+    border-bottom: 1px solid ghostwhite;
+    padding: 1rem var(--plan-padding);}
+
+    #Plan .advanced{
+        padding: var(--plan-padding);}
+
+        #Plan .free{
+            padding: var(--plan-padding);
+
+        }
+
 #Map{
     grid-template-columns: 50% 50%;
     

@@ -1,3 +1,10 @@
- 
+@import 'settings.css';
+.plan-width {
+    
+    --plan-padding-wide:var(--plan-padding + 1.5rem);
+}
+
  $footer-padding:1.8rem;
- $plan-padding:2rem;
+
+
+ 
